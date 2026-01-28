@@ -3,13 +3,10 @@
   "extends": [
     "next",
     "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:prettier/recommended"
+    "plugin:@typescript-eslint/recommended"
   ],
   "plugins": [
     "@typescript-eslint",
-    "prettier",
     "react"
   ],
   "ignorePatterns": [".generated/**/*", "**/*.d.ts", "**/*.js"],
