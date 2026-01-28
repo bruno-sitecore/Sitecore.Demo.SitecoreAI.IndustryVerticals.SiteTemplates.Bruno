@@ -40,7 +40,6 @@ export const Default = (props: PromoProps): JSX.Element => {
   const hoverFx = hideShadow
     ? 'hover:-translate-y-0'
     : 'shadow-sm hover:shadow-md hover:-translate-y-0.5';
-  const gridBase = 'grid grid-cols-1 sm:grid-cols-[200px,1fr]'; // fixed logo rail
   const orderLeft = isReversed ? 'sm:order-2' : 'sm:order-1';
   const orderRight = isReversed ? 'sm:order-1' : 'sm:order-2';
 
