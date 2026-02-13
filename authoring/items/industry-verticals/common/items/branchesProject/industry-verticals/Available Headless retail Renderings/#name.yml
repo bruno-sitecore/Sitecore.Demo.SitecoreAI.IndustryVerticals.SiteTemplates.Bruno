@@ -30,7 +30,6 @@ SharedFields:
     {613A3675-953D-4AD1-877A-48D24A28977D}
     {6B69C658-CE00-476C-8A97-FA59F2DEF73B}
     {5CEFF7C3-95EE-4EF8-A08C-7A6DBE5613CD}
-    {75A72FA7-693E-4ABF-8A24-D3B74D48EA20}
     {810E5B86-932A-4160-8672-C126B545F034}
     {89252C77-218A-4B21-8A74-BC8A4BF11D93}
     {0D60B2A1-9BF8-420A-8EEA-BC98FE425EB7}
@@ -41,9 +40,12 @@ SharedFields:
     {E6C8038F-B3EA-46E4-9F2C-89C562CE21F5}
     {9233D899-603E-4E35-BC0B-F1CD64CD7ED1}
     {E776D93C-00C8-466E-AAAC-A4F90B590A3A}
+    {4FA5F05F-4F21-43D3-B45F-D7149F2DD2EC}
+    {C604C3E4-A23D-47D3-A375-58D541DBE801}
+    {33A73E35-492C-4A60-A24C-1DE2024A6007}
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "02b132a7-709a-4f3f-bf0c-61116d6398b1"
+  Value: "09094993-47f7-4d26-bf73-e9de1d1bcfda"
 Languages:
 - Language: en
   Versions:
@@ -58,11 +60,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b294e627-f819-4da7-bc05-753c7660a34a"
+      Value: "fd8459a8-65d6-4541-8520-603aa1d89e99"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\ranula.gamage@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251223T104207Z
+      Value: 20260127T111233Z

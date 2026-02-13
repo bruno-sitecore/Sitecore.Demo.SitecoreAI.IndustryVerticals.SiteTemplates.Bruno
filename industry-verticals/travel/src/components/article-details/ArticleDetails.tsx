@@ -6,16 +6,18 @@ import {
   NextImage as ContentSdkImage,
   Text as ContentSdkText,
   RichText as ContentSdkRichText,
-  Link as ContentSdkLink,
   Placeholder,
   useSitecore,
   TextField,
-  LinkField,
   DateField,
 } from '@sitecore-content-sdk/nextjs';
-import { ArrowLeft, Calendar, Clock, Heart, Share2 } from 'lucide-react';
+import { Calendar, Clock, Heart, Share2 } from 'lucide-react';
 import { newsDateFormatter } from '../../helpers/dateHelper';
 import { Author } from '../non-sitecore/Author';
+import { ParentPathLink } from '../non-sitecore/ParentPathLink';
+import { useI18n } from 'next-localization';
+import SocialShare from '../non-sitecore/SocialShare';
+import { useEffect, useState } from 'react';
 
 interface AuthorFields {
   fields: {
@@ -32,7 +34,7 @@ interface CategoryFields {
 }
 
 interface Fields {
-  Title: TextField;
+  Title: Field<string>;
   ShortDescription: Field<string>;
   Content: RichTextField;
   Image: ImageField;
@@ -41,7 +43,6 @@ interface Fields {
   ReadTime: TextField;
   Likes: TextField;
   Shares: TextField;
-  BackLink: LinkField;
   Category: CategoryFields;
 }
 
@@ -51,13 +52,20 @@ interface ArticleDetailsProps extends ComponentProps {
 
 export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
   const { page } = useSitecore();
+  const [currentUrl, setCurrentUrl] = useState('');
   const { styles, RenderingIdentifier: id, DynamicPlaceholderId } = params;
-  const placeholderKey = `article-details-${DynamicPlaceholderId}`;
   const placeholderAuthorKey = `article-details-author-${DynamicPlaceholderId}`;
   const fullWidthPlaceholderKey = `article-details-full-width-${DynamicPlaceholderId}`;
   const isPageEditing = page.mode.isEditing;
+  const { t } = useI18n();
 
-  if (!fields) {
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setCurrentUrl(window.location.href);
+    }
+  }, []);
+
+  if (!fields?.Title) {
     return isPageEditing ? (
       <div className={`component article-details ${styles}`} id={id}>
         [ARTICLE DETAILS]
@@ -70,12 +78,11 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
   return (
     <>
       {/* Back Section */}
-      <div className={`container mx-auto flex items-center py-4 ${styles}`} id={id}>
-        <ArrowLeft className="text-accent mr-2 h-4 w-4" />
-        <ContentSdkLink
-          field={fields?.BackLink}
-          className="text-accent hover:text-accent-dark inline-flex items-center"
-        />
+      <div
+        className={`component article-details container mx-auto flex items-center py-4 ${styles}`}
+        id={id}
+      >
+        <ParentPathLink text={t('back_to_blog') || 'Back to Blog'} />
       </div>
 
       {/* Article Header */}
@@ -139,7 +146,13 @@ export const Default = ({ params, fields, rendering }: ArticleDetailsProps) => {
               </div>
 
               {/* Social Actions */}
-              <Placeholder rendering={rendering} name={placeholderKey} />
+              <SocialShare
+                useCustomIcons
+                url={currentUrl}
+                title={fields?.Title?.value || ''}
+                description={fields?.ShortDescription?.value || ''}
+                mediaUrl={fields?.Image?.value?.src || ''}
+              />
             </div>
           </div>
 
