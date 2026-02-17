@@ -1,11 +1,11 @@
 {
   "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
-  "namespace": "Project.Retail-Media",
+  "namespace": "Project.Flowers-Media",
   "references": ["Project.IndustryVerticals"],
   "items": {
     "includes": [
       {
-        "name": "retail-media",
+        "name": "flowers-media",
         "path": "/sitecore/Media Library/Project/industry-verticals/flowersfoods",
         "scope": "DescendantsOnly",
         "allowedPushOperations": "CreateUpdateAndDelete"

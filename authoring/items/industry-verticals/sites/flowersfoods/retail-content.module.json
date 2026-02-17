@@ -1,6 +1,6 @@
 {
   "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
-  "namespace": "Project.Retail-Content",
+  "namespace": "Project.Flowers-Content",
   "references": ["Project.IndustryVerticals"],
   "items": {
     "includes": [
