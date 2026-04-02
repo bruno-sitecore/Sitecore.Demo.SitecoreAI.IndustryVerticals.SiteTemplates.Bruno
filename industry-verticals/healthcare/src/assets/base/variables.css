@@ -21,6 +21,8 @@
 
   --font-heading: 'Mulish', sans-serif;
   --font-body: 'Noto Sans', sans-serif;
+  /* Sentara.com header/footer UI type (matches sentara.com Inter stack) */
+  --font-inter: 'Inter', sans-serif;
 
   --radius-base: 0.5rem;
 

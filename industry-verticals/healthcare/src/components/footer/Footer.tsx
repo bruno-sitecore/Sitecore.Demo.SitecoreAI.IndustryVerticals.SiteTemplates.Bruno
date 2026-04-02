@@ -76,12 +76,15 @@ const DefaultFooter = (props: FooterProps) => {
     props.params?.Styles?.includes(CommonStyles.HideBottomSection) || undefined;
 
   return (
-    <section className={`relative ${props.params.styles} overflow-hidden`} id={id ? id : undefined}>
+    <section
+      className={`font-inter relative overflow-hidden bg-[#F5F0EE] text-[#333131] dark:bg-neutral-900 dark:text-neutral-200 ${props.params.styles}`}
+      id={id ? id : undefined}
+    >
       {/* footer top section */}
       {!hideTopSection && (
-        <div className="bg-background-secondary dark:bg-background-secondary-dark pt-24 pb-16">
-          {/* svg accent background */}
-          <div className="text-background dark:text-background-dark pointer-events-none absolute -top-px -right-px left-0 leading-none">
+        <div className="pt-24 pb-16">
+          {/* svg accent background — curve fill matches page surface (white / dark) */}
+          <div className="pointer-events-none absolute -top-px -right-px left-0 leading-none text-white dark:text-[#0c1220]">
             <svg
               viewBox="0 0 1613.26 511.77"
               xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +98,7 @@ const DefaultFooter = (props: FooterProps) => {
             </svg>
           </div>
           {/* footer top section */}
-          <div className="relative z-20 container">
+          <div className="relative z-20 container [&_a]:font-medium [&_a]:text-[#333131] [&_a]:transition-colors [&_a:hover]:text-[#434384] [&_a:hover]:underline dark:[&_a]:text-neutral-200 dark:[&_a:hover]:text-[#B4C4FC]">
             {/* logo section */}
             <Link href={'/'} className="mb-12 inline-block max-w-50">
               <ContentSdkImage
@@ -117,7 +120,9 @@ const DefaultFooter = (props: FooterProps) => {
             <div className="grid gap-x-4 gap-y-12 lg:grid-cols-4">
               {sections.map(({ key, title, content }) => (
                 <div key={key}>
-                  <div className="mb-8 text-lg font-bold">{title}</div>
+                  <div className="mb-8 text-lg font-bold tracking-[0.02em] text-[#333131] dark:text-neutral-100">
+                    {title}
+                  </div>
                   <div>{content}</div>
                 </div>
               ))}
@@ -127,23 +132,29 @@ const DefaultFooter = (props: FooterProps) => {
       )}
       {/* footer bottom section */}
       {!hideBottomSection && (
-        <div className="container py-4">
+        <div className="container border-t border-[#EEE7E4] py-6 dark:border-neutral-700">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-center">
             {/* copyright section */}
             <div className="mr-auto">
-              <p>
+              <p className="text-sm leading-5 text-[#696363] dark:text-neutral-400">
                 <ContentSdkText field={props.fields.CopyrightText} />
               </p>
             </div>
 
             {/* policy and terms section */}
             <div className="flex flex-wrap gap-4 lg:mx-8">
-              <ContentSdkLink field={props.fields.TermsText} />
-              <ContentSdkLink field={props.fields.PolicyText} />
+              <ContentSdkLink
+                field={props.fields.TermsText}
+                className="text-sm font-medium text-[#333131] transition-colors hover:text-[#434384] hover:underline dark:text-neutral-200 dark:hover:text-[#B4C4FC]"
+              />
+              <ContentSdkLink
+                field={props.fields.PolicyText}
+                className="text-sm font-medium text-[#333131] transition-colors hover:text-[#434384] hover:underline dark:text-neutral-200 dark:hover:text-[#B4C4FC]"
+              />
             </div>
 
             {/* social icons section */}
-            <div>
+            <div className="[&_a]:text-[#333131] [&_a]:transition-colors [&_a:hover]:text-[#434384] dark:[&_a]:text-neutral-200 dark:[&_a:hover]:text-[#B4C4FC]">
               <Placeholder name={phKeyFive} rendering={props.rendering} />
             </div>
           </div>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Main navigation — markup reference</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --nav-bg: #ffffff;
+        --nav-text: #262626;
+        --nav-border: #f0ebe8;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, sans-serif;
+        background: #fafafa;
+      }
+
+      .main-nav {
+        background: var(--nav-bg);
+        border-top: 1px solid var(--nav-border);
+        border-bottom: 1px solid var(--nav-border);
+      }
+
+      .main-nav__inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+
+      .main-nav__list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.25rem 1.75rem;
+        list-style: none;
+        margin: 0;
+        padding: 0.875rem 0;
+      }
+
+      .main-nav__item {
+        position: relative;
+      }
+
+      .main-nav__trigger {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.25rem 0;
+        border: none;
+        background: transparent;
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--nav-text);
+        cursor: pointer;
+      }
+
+      .main-nav__trigger:hover,
+      .main-nav__trigger:focus-visible {
+        color: #434384;
+        outline: none;
+      }
+
+      .main-nav__trigger:focus-visible {
+        box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #3b3ba8;
+        border-radius: 2px;
+      }
+
+      .main-nav__chevron {
+        flex-shrink: 0;
+        width: 1rem;
+        height: 1rem;
+        color: currentColor;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+      Semantic pattern: primary nav with expandable sections (mega-menu / flyouts
+      would live in hidden panels wired to aria-expanded).
+    -->
+    <nav class="main-nav" aria-label="Main navigation">
+      <div class="main-nav__inner">
+        <ul class="main-nav__list" role="list">
+          <li class="main-nav__item" role="none">
+            <button
+              type="button"
+              class="main-nav__trigger"
+              id="nav-find-care"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-controls="panel-find-care"
+            >
+              Find Care
+              <svg
+                class="main-nav__chevron"
+                aria-hidden="true"
+                width="16"
+                height="16"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 8L10 13L15 8"
+                  stroke="currentColor"
+                  stroke-width="1.67"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <!-- <div id="panel-find-care" class="main-nav__panel" hidden>...</div> -->
+          </li>
+          <li class="main-nav__item" role="none">
+            <button
+              type="button"
+              class="main-nav__trigger"
+              id="nav-find-location"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-controls="panel-find-location"
+            >
+              Find a Location
+              <svg class="main-nav__chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </li>
+          <li class="main-nav__item" role="none">
+            <button
+              type="button"
+              class="main-nav__trigger"
+              id="nav-find-doctor"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-controls="panel-find-doctor"
+            >
+              Find a Doctor/Provider
+              <svg class="main-nav__chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </li>
+          <li class="main-nav__item" role="none">
+            <button
+              type="button"
+              class="main-nav__trigger"
+              id="nav-medical-services"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-controls="panel-medical-services"
+            >
+              Medical Services
+              <svg class="main-nav__chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </li>
+          <li class="main-nav__item" role="none">
+            <button
+              type="button"
+              class="main-nav__trigger"
+              id="nav-health-plans"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-controls="panel-health-plans"
+            >
+              Health Plans
+              <svg class="main-nav__chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </li>
+          <li class="main-nav__item" role="none">
+            <button
+              type="button"
+              class="main-nav__trigger"
+              id="nav-about"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-controls="panel-about"
+            >
+              About Sentara
+              <svg class="main-nav__chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>

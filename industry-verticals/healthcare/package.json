@@ -44,7 +44,7 @@
     "react": "^19.1.2",
     "react-dom": "^19.1.2",
     "react-share": "^5.2.2",
-    "sharp": "0.34.1",
+    
     "swiper": "^11.2.10",
     "tailwind-bootstrap-grid": "^6.0.0",
     "tailwind-merge": "^3.3.1",
@@ -52,8 +52,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^4.1.1",
-    "@percy/cli": "^1.31.1",
-    "@percy/storybook": "^9.0.0",
+
     "@sitecore-content-sdk/cli": "^1.2.1",
     "@storybook/addon-a11y": "^9.1.2",
     "@storybook/addon-docs": "^9.1.2",

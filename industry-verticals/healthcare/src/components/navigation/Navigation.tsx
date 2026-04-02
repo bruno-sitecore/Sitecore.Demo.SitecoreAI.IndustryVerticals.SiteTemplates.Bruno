@@ -69,9 +69,12 @@ export const Default = (props: NavigationProps) => {
     ));
 
   return (
-    <div className={`component navigation font-heading text-lg ${styles}`} id={id ? id : undefined}>
+    <div
+      className={`component navigation font-inter text-base tracking-[0.02em] ${styles}`}
+      id={id ? id : undefined}
+    >
       <div
-        className="z-50 flex h-6 w-6 cursor-pointer items-center justify-center lg:hidden"
+        className="z-50 flex h-6 w-6 cursor-pointer items-center justify-center text-[#333131] lg:hidden dark:text-neutral-100"
         onClick={() => handleToggleMenu()}
       >
         <FontAwesomeIcon icon={isOpenMenu ? faTimes : faBars} width={16} height={16} />
@@ -81,7 +84,7 @@ export const Default = (props: NavigationProps) => {
         <nav
           className={`${
             isOpenMenu ? 'flex' : 'hidden'
-          } bg-background dark:bg-background-dark absolute top-full right-0 left-0 z-100 lg:static lg:flex`}
+          } absolute top-full right-0 left-0 z-100 border-t border-[#F5F0EE] bg-white lg:static lg:flex lg:border-t-0 dark:border-neutral-700 dark:bg-[#0c1220]`}
         >
           <ul className={`container flex flex-col gap-x-8 pb-8 lg:flex-row lg:pb-0 xl:gap-x-14`}>
             {list}
@@ -115,7 +118,7 @@ const NavigationList = (props: NavigationListProps) => {
 
   return (
     <li
-      className={`${classNameList} relative flex flex-col ${isRootItem ? 'lg:flex-row' : ''} gap-x-8 gap-y-4 xl:gap-x-14 ${active ? 'active' : ''} uppercase`}
+      className={`${classNameList} relative flex flex-col ${isRootItem ? 'lg:flex-row' : ''} gap-x-8 gap-y-4 xl:gap-x-14 ${active ? 'active' : ''}`}
       key={props.fields.Id}
       tabIndex={0}
     >
@@ -124,7 +127,7 @@ const NavigationList = (props: NavigationListProps) => {
           field={getLinkField(props)}
           editable={page.mode.isEditing}
           onClick={props.handleClick}
-          className="whitespace-nowrap"
+          className={`whitespace-nowrap text-[#333131] transition-colors hover:text-[#434384] dark:text-neutral-100 dark:hover:text-[#B4C4FC] ${isRootItem ? 'font-bold' : 'font-medium'}`}
         >
           {getNavigationText(props)}
         </Link>
@@ -137,7 +140,7 @@ const NavigationList = (props: NavigationListProps) => {
               icon={active ? faChevronUp : faChevronDown}
               width={16}
               height={16}
-              className="cursor-pointer"
+              className="cursor-pointer text-[#333131] dark:text-neutral-200"
             />
           </div>
         ) : (
@@ -149,7 +152,7 @@ const NavigationList = (props: NavigationListProps) => {
           className={`flex flex-col gap-x-8 gap-y-4 xl:gap-x-14 ${
             isRootItem
               ? 'lg:flex-row'
-              : `bg-background dark:bg-background-dark top-full -left-4 pl-4 lg:absolute lg:p-4 ${
+              : `top-full -left-4 bg-white pl-4 lg:absolute lg:p-4 dark:bg-[#0c1220] ${
                   active ? 'block' : 'hidden'
                 } z-100`
           }`}
