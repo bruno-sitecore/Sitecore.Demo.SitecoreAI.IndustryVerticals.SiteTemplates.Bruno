@@ -3,13 +3,12 @@ import {
   ImageField,
   LinkField,
   NextImage as ContentSdkImage,
-  Link as ContentSdkLink,
   Placeholder,
   withDatasourceCheck,
 } from '@sitecore-content-sdk/nextjs';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 interface Fields {
   LogoLight: ImageField;
@@ -56,13 +55,15 @@ export const DefaultHeaderExtended = (props: HeaderProps) => {
             rendering={props.rendering}
           />
         </div>
-        <div className="mx-2 lg:mx-0">
-          <Placeholder
-            name={`header-extended-theme-switcher-${props?.params?.DynamicPlaceholderId}`}
-            rendering={props.rendering}
-          />
+        <div className="mx-2 shrink-0 lg:mx-0">
+          <button
+            type="button"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-[#323030] px-6 py-2.5 text-sm font-bold tracking-tight text-white transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#323030]"
+          >
+            <FontAwesomeIcon icon={faUser} className="h-4 w-4" aria-hidden />
+            Sign In
+          </button>
         </div>
-
       </div>
     </section>
   );

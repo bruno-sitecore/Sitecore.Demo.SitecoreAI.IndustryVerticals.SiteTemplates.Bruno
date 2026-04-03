@@ -18,7 +18,7 @@ import BlobAccent from 'src/assets/shapes/BlobAccent';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
 import { CommonStyles, FeatureStyles } from '@/types/styleFlags';
 import BlobAccent_ff719d36323bb13e49440edf42521225aa8ecaa1 from '@/assets/shapes/BlobAccent';
-import { faArrowRight, faBars, faChevronDown, faChevronUp, faTimes, faEnvelope, faPhone, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faBars, faChevronDown, faChevronUp, faTimes, faUser, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent_c450f25c63b00a2e370305e155038c473dbb9c49 from 'src/components/non-sitecore/BlobAccent';
 import CurvedClip_6089ba18dc7000eae1dc64c54178a20f58206b41 from 'src/components/non-sitecore/CurvedClip';
 import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
@@ -119,8 +119,7 @@ const importMap = [
       { name: 'faChevronDown', value: faChevronDown },
       { name: 'faChevronUp', value: faChevronUp },
       { name: 'faTimes', value: faTimes },
-      { name: 'faEnvelope', value: faEnvelope },
-      { name: 'faPhone', value: faPhone },
+      { name: 'faUser', value: faUser },
       { name: 'faArrowLeft', value: faArrowLeft },
     ]
   },
