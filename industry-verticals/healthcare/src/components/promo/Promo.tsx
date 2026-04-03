@@ -15,8 +15,6 @@ import {
   Placeholder,
   withDatasourceCheck,
 } from '@sitecore-content-sdk/nextjs';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import BlobAccent from '../non-sitecore/BlobAccent';
 import CurvedClip from '../non-sitecore/CurvedClip';
 import { CommonStyles } from '@/types/styleFlags';
@@ -42,8 +40,9 @@ const PromoWrapper = ({ children, props }: { children: React.ReactNode; props: P
 
   return (
     <section
-      className={`component promo bg-background-secondary dark:bg-background-secondary-dark relative py-12 sm:py-20 lg:py-32 ${props?.params?.styles}`}
+      className={`component promo bg-background dark:bg-background-dark relative py-12 lg:py-16 ${props?.params?.styles}`}
       id={id ? id : undefined}
+      style={{ margin: '0 auto', maxWidth: '800px' }}
     >
       {curvedTop && <CurvedClip className="top-0" pos="top" />}
       {curvedBottom && <CurvedClip className="bottom-0" pos="bottom" />}
@@ -54,14 +53,16 @@ const PromoWrapper = ({ children, props }: { children: React.ReactNode; props: P
         />
       )}
       <div className="relative z-10 container">
-        <div className="grid items-center gap-x-24 gap-y-12 lg:grid-cols-2">
-          <div className="shadow-soft aspect-square overflow-hidden rounded-lg">
+        <div className="grid items-center gap-x-8 gap-y-10 lg:grid-cols-2 lg:gap-x-12 lg:gap-y-0">
+          <div className="aspect-square overflow-hidden rounded-3xl">
             <ContentSdkImage
               field={props.fields.PromoImageOne}
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="lg:[.promo-reversed_&]:order-first">{children}</div>
+          <div className="flex flex-col gap-6 text-left lg:[.promo-reversed_&]:order-first">
+            {children}
+          </div>
         </div>
       </div>
     </section>
@@ -71,14 +72,19 @@ const PromoWrapper = ({ children, props }: { children: React.ReactNode; props: P
 const DefaultPromo = (props: PromoProps) => {
   return (
     <PromoWrapper props={props}>
-      <h2>
+      <h2 className="font-heading text-foreground dark:text-foreground-dark text-3xl font-bold tracking-tight sm:text-4xl">
         <ContentSdkText field={props.fields.PromoTitle} />
       </h2>
-      <ContentSdkRichText className="mb-10 text-lg" field={props.fields.PromoDescription} />
+      <ContentSdkRichText
+        className="font-body text-foreground dark:text-foreground-dark text-base leading-relaxed sm:text-lg [&_p+p]:mt-4"
+        field={props.fields.PromoDescription}
+      />
 
-      <ContentSdkLink field={props.fields.PromoMoreInfo} className="btn btn-icon">
+      <ContentSdkLink
+        field={props.fields.PromoMoreInfo}
+        className="font-heading focus-visible:ring-background dark:focus-visible:ring-background-dark inline-flex w-fit items-center justify-center rounded-full bg-[#3F3F9F] px-8 py-3 text-base font-bold text-white transition-colors hover:bg-[#3434a3] focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+      >
         {props.fields?.PromoMoreInfo?.value?.text}
-        <FontAwesomeIcon icon={faArrowRight} />
       </ContentSdkLink>
     </PromoWrapper>
   );
@@ -87,7 +93,7 @@ const DefaultPromo = (props: PromoProps) => {
 const WithPlaceholderPromo = (props: PromoProps) => {
   return (
     <PromoWrapper props={props}>
-      <h2>
+      <h2 className="font-heading text-foreground dark:text-foreground-dark text-3xl font-bold tracking-tight sm:text-4xl">
         <ContentSdkText field={props.fields.PromoTitle} />
       </h2>
       <Placeholder
