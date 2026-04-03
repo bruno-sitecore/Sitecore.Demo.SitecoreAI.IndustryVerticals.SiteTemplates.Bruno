@@ -4,8 +4,6 @@ import Link from 'next/link';
 import { Text as ContentSdkText, NextImage as ContentSdkImage } from '@sitecore-content-sdk/nextjs';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Doctor } from '@/types/doctors';
 import { ComponentProps } from '@/lib/component-props';
 import { SitecoreItem } from '@/types/common';

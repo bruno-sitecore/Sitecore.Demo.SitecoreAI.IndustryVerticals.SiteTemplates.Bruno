@@ -20,7 +20,7 @@ import { CommonStyles, FeatureStyles } from '@/types/styleFlags';
 import BlobAccent_ff719d36323bb13e49440edf42521225aa8ecaa1 from '@/assets/shapes/BlobAccent';
 import BlobAccent_c450f25c63b00a2e370305e155038c473dbb9c49 from 'src/components/non-sitecore/BlobAccent';
 import CurvedClip_6089ba18dc7000eae1dc64c54178a20f58206b41 from 'src/components/non-sitecore/CurvedClip';
-import { faBars, faChevronDown, faChevronUp, faTimes, faUser, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faChevronDown, faChevronUp, faTimes, faUser } from '@fortawesome/free-solid-svg-icons';
 import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
 import { ChevronRight } from 'lucide-react';
@@ -133,8 +133,6 @@ const importMap = [
       { name: 'faChevronUp', value: faChevronUp },
       { name: 'faTimes', value: faTimes },
       { name: 'faUser', value: faUser },
-      { name: 'faArrowLeft', value: faArrowLeft },
-      { name: 'faArrowRight', value: faArrowRight },
     ]
   },
   {
