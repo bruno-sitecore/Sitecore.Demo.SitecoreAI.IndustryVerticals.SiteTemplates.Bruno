@@ -29,7 +29,7 @@ Languages:
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
       Value: |
-        <div class="ck-content"><p>We are committed to redefining healthcare by combining innovation, compassion, and expertise. Our mission is to provide accessible, high-quality medical services tailored to your needs, whether it's urgent care, routine check-ups, or specialized treatments.&nbsp;</p><p>&nbsp;</p><p>With a patient-first approach and state-of-the-art facilities, we ensure your health is always in the best hands.&nbsp;</p><p>&nbsp;</p><p>Your well-being is our priority, every step of the way.&nbsp;</p><p>&nbsp;</p><p>Ready to take charge of your health?</p></div>
+        <div class="ck-content"><p>We are committed to redefining healthcare by combining innovation, compassion, and expertise. Our mission is to provide accessible, high-quality medical services tailored to your needs, whether it's urgent care, routine check-ups, or specialized treatments.</p></div>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -40,14 +40,14 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dfcf1952-6922-4d92-8a52-83e050831b33"
+      Value: "b58a883c-cff0-456a-8434-aaaabcba05b2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260205T092444Z
+      Value: 20260403T144733Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: About us

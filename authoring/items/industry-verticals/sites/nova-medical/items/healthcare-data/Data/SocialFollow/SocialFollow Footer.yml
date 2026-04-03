@@ -1,4 +1,4 @@
----
+﻿---
 ID: "95e2b78a-fbbb-406f-a60c-21010418a131"
 Parent: "f3b71006-d969-4c47-a206-2ae09f09cd1c"
 Template: "f6930608-d385-4c04-9bb1-6d1053448867"
@@ -26,14 +26,6 @@ Languages:
       Hint: TwitterLink
       Value: |
         <link linktype="external" url="#" target="" text="www.x.com" title="" class=""/>
-    - ID: "82a5236e-7ffe-45e4-a987-437a3e9ed5fe"
-      Hint: YoutubeLink
-      Value: |
-        <link linktype="external" url="#" target="" text="YouTube" title="" class=""/>
-    - ID: "8eb52c3f-0da7-4370-97b4-6660650496c5"
-      Hint: LinkedinLink
-      Value: |
-        <link linktype="external" url="#" target="" text="LinkedIn" title="" class=""/>
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
