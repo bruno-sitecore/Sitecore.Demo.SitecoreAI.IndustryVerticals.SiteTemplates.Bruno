@@ -1,4 +1,4 @@
----
+﻿---
 ID: "ab63fa45-8813-490a-9b0e-c10f28548f1f"
 Parent: "7c9f7b52-623d-4448-a7fe-1c9f3363bd16"
 Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
@@ -53,6 +53,12 @@ SharedFields:
           s:id="{9F65621E-1102-461C-BBEE-3FADCE8E0509}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B544E6DC9-76C4-4C6A-B86A-9E34726E3890%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter&amp;Flattened&amp;AddRoot=1&amp;SerializerFieldNames&amp;SimpleLayout&amp;Logo&amp;RenderingIdentifier&amp;CSSStyles"
           s:ph="/headless-header/header-extended-nav-3" />
+        <r
+          uid="{48A48B0F-2AC6-4351-ADF4-0A6E52E2735B}"
+          p:after="*[1=2]"
+          s:id="{5CEFF7C3-95EE-4EF8-A08C-7A6DBE5613CD}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="/headless-header/header-extended-theme-switcher-3" />
       </d>
     </r>
 Languages:
@@ -70,6 +76,9 @@ Languages:
           p:p="1">
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{4DDEA290-246C-4B55-B0A6-79DF7362CA2C}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B9B4A68D5-57DC-4137-B953-621B38EECC68%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3" />
             <r
               uid="{E8D06E62-8EAF-4112-A972-B10E4A0282A5}"
               p:after="r[@uid='{4DDEA290-246C-4B55-B0A6-79DF7362CA2C}']"
@@ -92,11 +101,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d31d4049-0c18-4a8d-82d8-8139b7128019"
+      Value: "32b0cd41-5fbe-483d-ac93-3c8168d3b41b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260402T210648Z
+      Value: 20260403T133642Z
