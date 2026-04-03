@@ -60,13 +60,13 @@ const baseRendering = {
 };
 
 const baseFields = {
-  TitleOne: createTextField('Contact'),
-  TitleTwo: createTextField('About us'),
-  TitleThree: createTextField('Our Services'),
-  TitleFour: createTextField('Hospital Time'),
-  CopyrightText: createTextField('Copyright © 2024. All Rights Reserved.'),
+  TitleOne: createTextField('About Sentara'),
+  TitleTwo: createTextField('Sentara Health Plans'),
+  TitleThree: createTextField('Learn more about'),
+  TitleFour: createTextField('Connectivity'),
+  CopyrightText: createTextField('Copyright © 2024 Sentara Health'),
   PolicyText: createLinkField('Privacy Policy'),
-  TermsText: createLinkField('Terms of Use'),
+  TermsText: createLinkField('User Agreement'),
   Description: createRichTextField(1),
   Logo: createImageField('logo'),
   LogoDark: createImageField('logo'),
@@ -93,7 +93,9 @@ const SocialFollowRendering = {
   fields: {
     FacebookLink: createLinkField('Facebook'),
     InstagramLink: createLinkField('Instagram'),
-    TwitterLink: createLinkField('Twitter'),
+    TwitterLink: createLinkField('X'),
+    LinkedinLink: createLinkField('LinkedIn'),
+    YoutubeLink: createLinkField('YouTube'),
   } as unknown as ComponentFields,
 };
 

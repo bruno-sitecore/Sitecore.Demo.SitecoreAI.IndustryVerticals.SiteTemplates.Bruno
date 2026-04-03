@@ -12,7 +12,7 @@ import { useMemo, useState, useId, useEffect } from 'react';
 import React from 'react';
 import { useTheme } from 'next-themes';
 import Head from 'next/head';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faYoutube, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import BlobAccent from 'src/assets/shapes/BlobAccent';
 import CurvedClip from 'src/assets/shapes/CurvedClip';
@@ -77,7 +77,9 @@ const importMap = [
     exports: [
       { name: 'faFacebook', value: faFacebook },
       { name: 'faInstagram', value: faInstagram },
-      { name: 'faTwitter', value: faTwitter },
+      { name: 'faLinkedin', value: faLinkedin },
+      { name: 'faYoutube', value: faYoutube },
+      { name: 'faXTwitter', value: faXTwitter },
     ]
   },
   {

@@ -31,7 +31,9 @@ const baseRendering = {
 const baseFields = {
   FacebookLink: createLinkField('Facebook'),
   InstagramLink: createLinkField('Instagram'),
-  TwitterLink: createLinkField('Twitter'),
+  TwitterLink: createLinkField('X'),
+  LinkedinLink: createLinkField('LinkedIn'),
+  YoutubeLink: createLinkField('YouTube'),
 };
 
 export const Default: Story = {
