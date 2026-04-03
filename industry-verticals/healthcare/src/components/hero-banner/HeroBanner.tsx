@@ -69,8 +69,6 @@ function NavRow({ href, label, variant, pillTone, linkClassName }: NavRowProps) 
   );
 }
 
-const HERO_BG = '#e4e7f5';
-
 export const DefaultHeroBanner = (props: HeroBannerProps) => {
   const id = props.params.RenderingIdentifier;
   const { t } = useI18n();
