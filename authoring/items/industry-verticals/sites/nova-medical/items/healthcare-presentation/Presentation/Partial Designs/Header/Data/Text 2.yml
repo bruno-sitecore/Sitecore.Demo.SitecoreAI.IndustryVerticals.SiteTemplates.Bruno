@@ -35,20 +35,24 @@ Languages:
           gap: 3rem;
           list-style: none;
           margin: 0;
-          padding: 0;
+          padding: 1rem 0;
+          border-bottom: 2px solid var(--color-border);
+          border-top: 2px solid var(--color-border);
         }
         .sentara-submenu li {
           text-align: center;
           list-style-type: none !important;
+        color: #000;
+        font-weight: bold;
         }
-        </style><ul class="sentara-submenu"><li>Find Care</li><li>Find a Location</li><li>Find a Doctor</li><li>Medical Services</li><li>Health Plans</li><li>About Sentara</li></ul></div>
+        </style><ul class="sentara-submenu"><li><a href="#">Find Care</a></li><li><a href="#">Find a Location</a></li><li><a href="#">Find a Doctor</a></li><li><a href="#">Medical Services</a></li><li><a href="#">Health Plans</a></li><li><a href="#">About Sentara</a></li></ul></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2c04b654-c9e3-41d5-ae1e-1e6b8f4351d0"
+      Value: "7d51f902-a2e9-4fb1-8fd8-001439b448e3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260402T210649Z
+      Value: 20260403T132711Z
