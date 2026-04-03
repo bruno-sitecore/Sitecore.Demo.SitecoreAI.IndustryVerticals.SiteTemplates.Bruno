@@ -66,14 +66,7 @@ export const Slider = (props: DoctorsListingProps) => {
       id={id || undefined}
     >
       <div className="relative container space-y-8">
-        <div className="slider-btn-wrapper">
-          <button className={`slider-btn slider-btn-prev-${uid}`}>
-            <FontAwesomeIcon icon={faArrowLeft} />
-          </button>
-          <button className={`slider-btn slider-btn-next-${uid}`}>
-            <FontAwesomeIcon icon={faArrowRight} />
-          </button>
-        </div>
+
         <Swiper
           modules={[Navigation, Pagination, Keyboard]}
           spaceBetween={48}
