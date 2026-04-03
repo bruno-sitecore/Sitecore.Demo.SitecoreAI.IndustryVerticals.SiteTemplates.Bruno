@@ -23,7 +23,8 @@ import BlobAccent_c450f25c63b00a2e370305e155038c473dbb9c49 from 'src/components/
 import CurvedClip_6089ba18dc7000eae1dc64c54178a20f58206b41 from 'src/components/non-sitecore/CurvedClip';
 import { getLinkField, getNavigationText } from '@/helpers/navHelpers';
 import { useI18n } from 'next-localization';
-import HeroClip from '@/assets/shapes/HeroClip';
+import { ChevronRight } from 'lucide-react';
+import { cn } from '@/shadcn/lib/utils';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
@@ -149,9 +150,15 @@ const importMap = [
     ]
   },
   {
-    module: '@/assets/shapes/HeroClip',
+    module: 'lucide-react',
     exports: [
-      { name: 'default', value: HeroClip },
+      { name: 'ChevronRight', value: ChevronRight },
+    ]
+  },
+  {
+    module: '@/shadcn/lib/utils',
+    exports: [
+      { name: 'cn', value: cn },
     ]
   },
   {
