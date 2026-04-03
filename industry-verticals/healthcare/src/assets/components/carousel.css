@@ -19,7 +19,7 @@
 }
 
 .slider-pagination-btn {
-  @apply bg-accent aspect-square w-5 cursor-pointer rounded-full;
+  @apply bg-foreground aspect-square w-5 cursor-pointer rounded-full;
 
   &.active {
     @apply aspect-auto w-12;

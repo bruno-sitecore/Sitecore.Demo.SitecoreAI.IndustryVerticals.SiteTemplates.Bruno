@@ -16,20 +16,21 @@ interface DoctorsListingProps extends ComponentProps {
   };
 }
 
+/** Sentara.com-aligned card: white surface, navy typography, blue role line (no elevation shadow). */
 const DoctorCard = ({ url, fields }: { url: string; fields: Doctor }) => {
   return (
     <Link
       href={url}
-      className="bg-background-secondary dark:bg-background-secondary-dark shadow-soft block overflow-hidden rounded-lg"
+      className="border-border text-foreground bg-background block overflow-hidden rounded-lg border dark:border-white/15"
     >
-      <div className="placeholder-pattern-background aspect-square">
+      <div className="placeholder-pattern-background aspect-square [--color-pattern-background:#eef1f5] [--color-pattern-foreground:rgba(0,90,156,0.12)] dark:[--color-pattern-background:var(--color-background-secondary-dark)] dark:[--color-pattern-foreground:var(--color-accent)]">
         <ContentSdkImage field={fields.Photo} className="h-full w-full rounded-t-lg object-cover" />
       </div>
       <div className="p-7 text-center">
-        <h5>
+        <h5 className="font-heading text-foreground">
           <ContentSdkText field={fields.FullName} />
         </h5>
-        <p className="text-accent text-lg lg:text-xl">
+        <p className="mt-1 text-lg text-[#005a9c] lg:text-xl dark:text-sky-200">
           <ContentSdkText field={fields.JobTitle} />
         </p>
       </div>
@@ -61,7 +62,7 @@ export const Slider = (props: DoctorsListingProps) => {
 
   return (
     <section
-      className={`relative overflow-hidden py-8 ${props.params.styles}`}
+      className={`relative overflow-hidden py-8 [&_.slider-btn]:bg-[#005a9c] [&_.slider-btn]:text-white [&_.slider-btn:disabled]:bg-transparent [&_.slider-btn:disabled]:text-disabled [&_.slider-pagination-btn]:bg-foreground/35 [&_.slider-pagination-btn.active]:bg-foreground ${props.params.styles}`}
       id={id || undefined}
     >
       <div className="relative container space-y-8">
