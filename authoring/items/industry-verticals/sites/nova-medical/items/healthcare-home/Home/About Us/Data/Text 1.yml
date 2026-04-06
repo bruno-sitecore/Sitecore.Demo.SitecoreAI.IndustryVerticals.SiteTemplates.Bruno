@@ -25,14 +25,14 @@ Languages:
     - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
       Hint: Text
       Value: |
-        <div class="ck-content"><p>Welcome to our esteemed healthcare organization. At Nova Medical, we are dedicated to providing exceptional care and promoting wellness for all individuals. Our distinguished team, which includes highly skilled and experienced doctors, compassionate nurses, and specialized health professionals, is committed to delivering a comprehensive range of health services tailored to meet the unique needs of each patient. These services are meticulously designed with your needs in mind, ensuring you receive the attentive, personalized care you deserve. We adopt a holistic approach to your health, which means we focus on treating the whole person by emphasizing not only medical treatment but preventative measures and mental wellness support.<br />&nbsp;</p><p>Our goal is to empower you to take charge of your health and enjoy a more fulfilling and vibrant life. We invite you to join us in our mission to construct a healthier future by engaging in our community health initiatives that aim to address specific health challenges, attending our informative educational workshops on various health topics, and participating in wellness activities that are thoughtfully designed to enhance your overall health journey. Together, we strive to make a positive impact on your health and the health of our community.</p></div>
+        <div class="ck-content"><h2>We Improve Health Every Day</h2><p>Sentara Health, an integrated, not-for-profit health care delivery system, celebrates more than 135 years in pursuit of its mission - "we improve health every day." Sentara is one of the largest health systems in the U.S. Mid-Atlantic and Southeast, and among the top 20 largest not-for-profit integrated health systems in the country, with 34,000 employees, 12 hospitals in Virginia and Northeastern North Carolina, including 10 hospitals with the prestigious Magnet®️ recognition, and the Sentara Health Plans division which serves more than 1 million members in Virginia and Florida. Sentara is recognized nationally for clinical quality and safety and is strategically focused on innovation and creating an extraordinary health care experience for our patients and members. Sentara was named a Health Quality Innovator of the Year (2024), was recognized by Forbes as "America’s Best-In-State Employer” (2024), "Best Employer for Veterans" (2022, 2023), and "Best Employer for Women" (2020), and named to IBM Watson Health's "Top 15 Health Systems" (2021, 2018).</p></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3a6a8c6c-3f35-416c-ae5c-e90944d5bf65"
+      Value: "d192a693-8f90-4071-bef1-557c45a3eedd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251124T100617Z
+      Value: 20260406T125811Z

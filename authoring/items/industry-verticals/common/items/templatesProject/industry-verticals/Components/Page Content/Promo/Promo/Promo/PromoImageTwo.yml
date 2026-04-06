@@ -6,7 +6,7 @@ Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Pr
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "query:$siteMedia"
+  Value: 
 - ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
   Hint: Enable Shared Language Fallback
   Value: 
@@ -21,7 +21,7 @@ SharedFields:
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "57647b3d-6672-4010-8ee8-09ef46392657"
+  Value: "3029c9d1-3eb2-492d-9bc5-0747a9029ab1"
 Languages:
 - Language: "de-DE"
   Fields:
@@ -74,14 +74,14 @@ Languages:
       Value: 20111213T133500Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5b7280e0-e80b-4da4-8cef-281840b226db"
+      Value: "59b94dd9-aa8d-4a37-87d9-bae3bf3e7fde"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\neli.kostadinova@sitecore.com
+        sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260213T060048Z
+      Value: 20260406T134219Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
       Value: 
