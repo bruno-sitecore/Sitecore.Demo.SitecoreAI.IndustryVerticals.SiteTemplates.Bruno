@@ -25,7 +25,7 @@ Languages:
     - ID: "453ed40c-5232-4e90-b023-7a3cee2bcfe8"
       Hint: PromoMoreInfo
       Value: |
-        <link linktype="external" url="http://www.google.com" target="" text="Book Appointment" title="" class=""/>
+        <link text="Book Appointment" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{77F081A9-5998-4D11-B98A-3F36734F7D27}" />
     - ID: "4fc0c7b3-bcfb-4a9d-834d-59f6836e5fd6"
       Hint: PromoDescription
       Value: |
@@ -40,14 +40,14 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "589c4fef-cd9d-43e4-bd30-0d746c0893df"
+      Value: "e545e707-2f1e-4e2b-86de-4406989adc84"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260406T141644Z
+      Value: 20260406T142813Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: "Ready to be Back in the Saddle? Avoid Injuries this Spring "
