@@ -1,8 +1,8 @@
 ﻿---
-ID: "98be02c2-908c-4c8c-a733-612e96441184"
-Parent: "bab4754a-de28-4402-9e51-02d8f576ee48"
-Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
-Path: "/sitecore/content/industry-verticals/nova-medical/Home/About Us/Spring 2026 Wellness/Data/Text 1"
+ID: "76cedb71-3b7b-4f7b-98ab-168f456dbed5"
+Parent: "ca17ad7e-e10b-4f49-9945-768106f3e705"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/industry-verticals/nova-medical/System/B/0/6/F"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260406T134634Z
+      Value: 20260407T194320Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d4909c27-6d21-4dd5-b559-d6b9b6924a8e"
+      Value: "66c5498f-3e28-443b-b61c-f411193b8958"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260406T134634Z
+      Value: 20260407T194320Z
