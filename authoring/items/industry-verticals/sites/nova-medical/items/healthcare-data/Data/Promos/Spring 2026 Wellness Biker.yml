@@ -7,10 +7,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="{A52C2488-AC0B-4AAA-8619-5FBFF6A11CD2}" />
+    <Image src="https://brandon-4213.sitecoresandbox.cloud/api/public/content/f4353c9613b64afeab31effc82f6413e?v=5b063ddc" dam-id="LgbFw-40SZykYb5mLRPkqQ" width="1376" height="768" alt="Biking Near Downtown Norfolk" dam-content-type="Image" thumbnailsrc="https://brandon-4213.sitecoresandbox.cloud/api/gateway/52415/thumbnail" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2543ee1e-56b2-48f5-be18-24a3717d5710"
+  Value: "aaabb751-7f14-4e3a-a7e7-0dd320bb4666"
 Languages:
 - Language: en
   Versions:
@@ -40,14 +40,14 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e545e707-2f1e-4e2b-86de-4406989adc84"
+      Value: "5fc65f60-2e01-4cbe-8c3a-2ae1c5bc2aff"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260406T142813Z
+      Value: 20260410T142506Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: "Ready to be Back in the Saddle? Avoid Injuries this Spring "

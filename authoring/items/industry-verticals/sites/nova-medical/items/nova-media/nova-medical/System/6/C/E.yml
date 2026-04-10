@@ -1,8 +1,8 @@
 ﻿---
-ID: "ca6ecb65-40ec-4d1b-95fe-d261ec1ad0dd"
-Parent: "bab4754a-de28-4402-9e51-02d8f576ee48"
-Template: "d885df8c-b2d6-4007-b34b-2bbafb527304"
-Path: "/sitecore/content/industry-verticals/nova-medical/Home/About Us/Reference/Data/Image 1"
+ID: "d6ddf78d-e88c-4868-934c-024a59a77831"
+Parent: "7881f957-125f-46da-82af-0574c314d717"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/industry-verticals/nova-medical/System/6/C/E"
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20260406T142848Z
+      Value: 20260410T140305Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\brandon.bruno@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "17e22671-7fbe-4e50-bb7a-612806015672"
+      Value: "2bb51297-bc6c-48bd-b2ae-daff1b4b1b45"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\brandon.bruno@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260406T142848Z
+      Value: 20260410T140305Z

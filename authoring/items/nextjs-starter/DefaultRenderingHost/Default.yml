@@ -72,14 +72,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3fe3c28c-0582-4cf4-9ebc-579083306d34"
+      Value: "f113e41b-d64e-4825-a302-8988556dc29c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260407T194447Z
+      Value: 20260410T161918Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -101,6 +101,9 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20260402T180348Z
+- Language: "es-MX"
+  Versions:
+  - Version: 1
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -154,6 +157,12 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20260402T173819Z
+- Language: "ko-KR"
+  Versions:
+  - Version: 1
+- Language: "vi-VN"
+  Versions:
+  - Version: 1
 - Language: "zh-CN"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
