@@ -1,0 +1,89 @@
+﻿---
+ID: "844ceeb7-039f-46d7-a599-f97b815934c3"
+Parent: "4205ba63-338e-4a96-9163-036c9bcc6573"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Blog/Turks-and-Caicos-Grace-Above-Water"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{277F3098-11F5-4588-9E78-67584008C228}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260427T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1526481280695-3c469f4d76f6?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Turquoise beach Turks and Caicos" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1526481280695-3c469f4d76f6?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1526481280695-3c469f4d76f6?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Turquoise beach Turks and Caicos" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1526481280695-3c469f4d76f6?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{94360A22-F891-4767-8865-E3D23F37CAA0}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "93f0c766-a23a-46f5-81ad-b35396b86bd3"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{C1F2AD56-3AD7-4E18-A1C7-C70B9768BD72}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Turks and Caicos is known for Grace Bay's calm clarity, luxury resorts, and reef systems that reward snorkelers and divers.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260427T192719Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Turks-and-Caicos-Grace-Above-Water"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: "<p>Turks and Caicos built its reputation on a simple promise: water so clear you can read the sand ripples from waist depth. That clarity draws honeymooners, divers, and anyone who wants their vacation photos to look understated on purpose.</p><h2>Providenciales and Grace Bay</h2><p>Most visitors center on <strong>Providenciales</strong>, where <strong>Grace Bay</strong> delivers mile after mile of swimmable calm. Resorts line the sand, but public access points exist—research etiquette and parking before you arrive with coolers.</p><h2>Underwater priorities</h2><p>Wall dives and channel cuts define the experience; snorkel trips often visit reefs minutes from shore. Wind and tide change conditions quickly—trust captain calls over Instagram maps.</p><h2>Day trips and outer islands</h2><p>Boat charters open sandbars, iguana islands, and quieter beaches. If you only book one splurge, make it a small-group day on the water with a crew that explains the ecosystem as carefully as they handle the anchor.</p><ul><li><strong>Budget for dining</strong>; imported goods raise menu prices.</li><li><strong>Sun protection + hydration</strong> are non-negotiable.</li><li><strong>Book early</strong> for peak weeks around holidays.</li></ul><p>Turks and Caicos is not trying to be everything—it is trying to be impossibly blue, and it succeeds.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: A small archipelago with outsized beach reputation—where to stay, dive, and disappear.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Plan Turks and Caicos: Providenciales, Grace Bay, diving, snorkeling, island day trips, and calm-season travel tips."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 7 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "afd341b3-7b6b-488e-8247-5669d37f6863"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Turks and Caicos: Grace Bay and the Quiet Luxury of Blue"
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 21
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260427T192834Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 27
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Turks and Caicos Travel Guide | Skywings
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Turks and Caicos, Grace Bay, Providenciales, Caribbean diving, Skywings

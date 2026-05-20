@@ -1,0 +1,156 @@
+﻿---
+ID: "6d395e1d-0eef-49ff-a1ae-af90c3c0fff9"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Articles/imf-executive-board-concludes-2026-article-iv-consultation-with-the-principality-of-liechtenstein"
+SharedFields:
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260327T000000Z
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: IMF|Article IV|Liechtenstein|Fiscal Policy|Financial Sector|AML/CFT|Structural Reforms|Macroeconomic Outlook
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F47C8DDB-3BAF-4398-9C46-607CDB6D0EC8}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a7639d98-f773-47c8-be36-a9e8913d5ddb"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <p:d />
+      </d>
+      <d
+        id="{fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3}"
+        s:l="{e04af89a-0005-5ab0-b01e-39b0f34e412c}" />
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "cd5774a7-1033-4758-bee6-67e743786003"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: IMF Executive Board Concludes 2026 Article IV Consultation with the Principality of Liechtenstein
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Liechtenstein has maintained high incomes, low unemployment, and strong fiscal buffers despite global headwinds, but its open economy remains exposed to uncertainty and geopolitical shifts. The IMF Executive Board emphasized the need for strengthened medium-term fiscal planning (including quantifying aging, climate, and security pressures), timely pension reforms, enhanced financial-sector and macroprudential oversight (including non-banks) and AML/CFT supervision, and structural reforms to ease skills shortages, raise labor supply, accelerate digitalization and STEM education, and close key data gaps."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260508T142057Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "2026 Article IV Consultation: Liechtenstein"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <p><strong>Washington, DC – March 27, 2026</strong>: On March 23, 2026, the Executive Board of the International Monetary Fund (IMF) completed the Article IV Consultation for the Principality of Liechtenstein. The authorities have consented to the publication of the Staff Report prepared for this consultation.</p>
+        
+        <h2>Key points</h2>
+        <ul>
+          <li>Despite global headwinds, Liechtenstein has preserved high incomes, low unemployment, and a strong fiscal position, but its highly open economy is exposed to ongoing global and geopolitical shifts.</li>
+          <li>Medium-term spending pressures (e.g., aging, climate, security) are rising and should be fully quantified and reflected in fiscal plans; pension system sustainability needs timely action.</li>
+          <li>Fiscal policy should be more supportive while the fiscal framework must enhance timely monitoring and be ready to respond to shocks.</li>
+          <li>Financial sector resilience should be bolstered via robust risk monitoring, strengthened prudential oversight, expanded macroprudential analysis (including non-bank intermediaries), and stronger AML/CFT supervision.</li>
+          <li>Structural reforms are needed to address skills shortages, raise labor supply (including female and older-worker participation), accelerate digitalization and STEM education, and close key macroeconomic data gaps (national accounts and balance of payments statistics).</li>
+          <li>Macroeconomic projections were finalized prior to the Middle East conflict; a staff supplement notes that the conflict and higher energy prices are expected to weigh on near-term growth and raise inflation but do not change staff policy advice.</li>
+        </ul>
+        
+        <h2>Recent developments and outlook</h2>
+        <p>Economic activity remained subdued amid uncertainty and weak external demand in 2025. Growth is estimated to have been flat in 2025. Inflation has stayed low, reflecting Swiss franc appreciation. Labor market conditions have cooled, with unemployment rising to around 2 percent due to workforce reductions in the automotive sector. The effective U.S. tariff rate rose to around 25 percent in 2025, weighing on Liechtenstein’s specialized, export-oriented manufacturing activity.</p>
+        
+        <p>The fiscal surplus declined in 2025 reflecting higher infrastructure and digitalization spending and weaker revenue performance but remained high at 2.8 percent of GDP. Net financial assets of the general government, including social security fund assets, are estimated to have stayed above 140 percent of GDP. General government debt has remained virtually zero. Banks remain highly capitalized and liquid with a low aggregate NPL ratio, but capital adequacy and liquidity metrics have declined since 2023 with subpar profitability partly reflecting the high cost of the private banking model.</p>
+        
+        <p>Growth is projected to remain flat in 2026 as uncertainty, trade barriers, and weak external demand continue to weigh on output. As firms adjust to the new trade environment and external conditions normalize, growth is expected to recover gradually toward its estimated potential of 1.5 percent. Inflation is projected to remain below 1 percent over the near and medium terms.</p>
+        
+        <p>Risks are tilted to the downside, including heightened trade uncertainty, weaker-than-expected growth in key trading partners, or renewed safe-haven appreciation of the franc. Given its global client base, the financial center may be vulnerable to asset repricing, increased market volatility, tighter global financial conditions, and potential reputational risks. Large fiscal buffers provide a cushion against adverse shocks. Continued reforms are needed to address skills shortages, increase labor supply (e.g., women), advance digitalization, and enhance security.</p>
+        
+        <h2>Staff supplement on the Middle East conflict</h2>
+        <p>The macroeconomic projections underlying the consultation were finalized prior to the conflict in the Middle East. The conflict and associated energy price increases are expected to weigh on near-term growth and raise inflation, as assessed in a supplement to the Staff Report. These developments do not change staff’s policy advice.</p>
+        
+        <h2>Executive Board assessment</h2>
+        <p>Executive Directors agreed with the thrust of the staff appraisal. They commended Liechtenstein’s strong economic fundamentals, noting that the country has maintained high incomes, low unemployment, and sizable buffers—with virtually no debt—despite global headwinds in recent years. Directors agreed that the near-term outlook is challenging with elevated global uncertainty, and risks are tilted to the downside. Against this backdrop, they concurred that strengthened medium-term fiscal planning, enhanced financial-sector oversight, and continued reform implementation are essential to preserve the economy’s resilience and lift medium-term growth.</p>
+        
+        <p>Most Directors recommended avoiding an overly tight fiscal stance given weak economic growth, and concurred that the automatic stabilizers should serve as the first line of defense should downside risks materialize. These Directors also encouraged the authorities to refine the fiscal framework to better align policy decisions with evolving macroeconomic conditions. A few Directors considered, however, that the balanced budget rule serves Liechtenstein well, underpinning fiscal credibility and buffer accumulation to deal with shocks. Directors recommended that future spending pressures related to aging, climate commitments, and security needs be systematically quantified in fiscal plans. In this context, they also noted the need to address future pension system financing needs in a timely manner.</p>
+        
+        <p>Directors welcomed the strong capital and liquidity positions of banks, while noting that declining capital and liquidity ratios as well as subdued profitability warrant continued supervisory vigilance. In particular, they emphasized the importance of strengthening macroprudential oversight and stress testing, including of non-bank financial intermediaries. Directors recommended expanding the existing systemic risk analysis framework to incorporate interconnectedness analysis across financial subsectors. They underscored the importance of safeguarding financial integrity through strengthened AML/CFT supervision, including over trustees.</p>
+        
+        <p>Directors encouraged structural reforms to enhance productivity and sustain growth. They emphasized measures to raise labor force participation, including among females and older workers, and called for greater emphasis on digital skills and STEM education. Directors recommended targeted investments in transport and digital infrastructure as well as in cyber resilience. They welcomed the authorities’ continued efforts to meet their climate targets. Directors emphasized that closing macroeconomic data gaps, especially in national accounts and balance of payment statistics, with support from IMF technical assistance, is crucial.</p>
+        
+        <p><em>Note:</em> Table 1 in the published report provides selected economic indicators and staff projections for 2022–2031. Footnotes in the report clarify data sources and methodological points, including that Swiss CPI is used as a proxy for Liechtenstein inflation and that most data are available only through 2023.</p>
+        
+        <p><strong>Location:</strong> Washington, DC</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "The IMF Executive Board completed the 2026 Article IV Consultation with the Principality of Liechtenstein. Directors highlighted strong fundamentals and large fiscal buffers, but downside risks from global uncertainty and trade barriers. Priorities include stronger medium-term fiscal planning and pension sustainability, enhanced financial-sector oversight and AML/CFT supervision, and structural reforms to address skills shortages, labor supply, digitalization, and macroeconomic data gaps."
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "IMF Executive Board concludes the 2026 Article IV Consultation with Liechtenstein, noting resilient fundamentals but rising medium-term spending pressures, downside risks, and the need for stronger fiscal planning, financial-sector oversight, AML/CFT supervision, and structural reforms to address skills shortages, digitalization, and data gaps."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 6 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2654fd31-cadb-453d-a3de-ab06d12ce513"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: IMF Executive Board Concludes 2026 Article IV Consultation with the Principality of Liechtenstein
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260508T142101Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 0
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: IMF Executive Board Concludes 2026 Article IV Consultation with Liechtenstein
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: |
+        IMF
+        Executive Board
+        Article IV Consultation
+        Liechtenstein
+        fiscal policy
+        fiscal framework
+        pension sustainability
+        financial sector resilience
+        macroprudential oversight
+        AML/CFT
+        prudential supervision
+        structural reforms
+        labor supply
+        digitalization
+        STEM education
+        macroeconomic data
+        national accounts
+        balance of payments
+        trade barriers
+        Swiss franc
+        inflation
+        Washington DC

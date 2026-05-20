@@ -1,0 +1,89 @@
+﻿---
+ID: "943adc28-79bb-4343-98eb-c0a29210fae9"
+Parent: "4205ba63-338e-4a96-9163-036c9bcc6573"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Blog/Dominican-Republic-Caribbean-Gateway"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{277F3098-11F5-4588-9E78-67584008C228}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260427T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1566073771259-6a8506099943?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Tropical beach Dominican Republic" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1566073771259-6a8506099943?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1566073771259-6a8506099943?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Tropical beach Dominican Republic" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1566073771259-6a8506099943?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DA28676A-B5B8-4ADB-8CA5-2AE7AF940EF3}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "04ac276b-d389-4b2f-a13e-f236f34015db"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{C1F2AD56-3AD7-4E18-A1C7-C70B9768BD72}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "The Dominican Republic routinely tops Caribbean visitor charts thanks to strong airlift, varied geography, and everything from all-inclusive resorts to colonial history in Santo Domingo."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260427T192721Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Dominican-Republic-Caribbean-Gateway"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: "<p>The Dominican Republic has become the Caribbean’s default first stop for millions of travelers—and for good reason. On one island you can pair powdery beaches with mountain escapes, whale watching, and a capital city layered with centuries of history.</p><h2>Where travelers go first</h2><p><strong>Punta Cana</strong> anchors the country’s resort scene: wide beaches, dependable service, and family-friendly activities. If you want calmer water and a slower rhythm, consider the <strong>La Romana–Bayahíbe</strong> corridor or the quieter coves of <strong>Samaná</strong>, famous for seasonal humpback whales.</p><h2>Culture beyond the shoreline</h2><p><strong>Santo Domingo’s Zona Colonial</strong> is one of the hemisphere’s great walking neighborhoods—cafés, cathedrals, and museums within a few cobblestone blocks. Food here skews hearty: mangú for breakfast, sancocho on Sundays, and late-night snacks from neighborhood frituras.</p><h2>Planning tips</h2><ul><li><strong>Seasonality:</strong> Winter holidays bring peak rates; late spring can balance price and weather.</li><li><strong>Transport:</strong> Compare package transfers with on-demand rides; distances add up quickly.</li><li><strong>Balance:</strong> Mix two resort days with one excursion to see a different side of the country.</li></ul><p>Whether you are chasing sunsets on the Atlantic or merengue in the capital, the DR rewards travelers who treat it as more than a single beach.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Why the DR leads Caribbean arrivals—and how to plan Punta Cana, Santo Domingo, and beyond.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Plan a Dominican Republic getaway: Punta Cana beaches, Samaná nature, Santo Domingo culture, and practical tips for peak-season travel."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 9 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea8908ed-7649-4e78-8efd-3dfaa250768f"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Dominican Republic: The Caribbean's Busiest Gateway"
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 28
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260427T192739Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 41
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Dominican Republic Travel Guide | Skywings
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: "Dominican Republic, Punta Cana, Santo Domingo, Caribbean travel, Samaná, all-inclusive, Skywings"

@@ -1,0 +1,89 @@
+﻿---
+ID: "8e1faee7-60a3-497d-aa2c-3b132079635f"
+Parent: "4205ba63-338e-4a96-9163-036c9bcc6573"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Blog/Puerto-Rico-Island-Enchantment"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{277F3098-11F5-4588-9E78-67584008C228}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260427T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1578898887155-004ade170785?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Colorful streets Puerto Rico" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1578898887155-004ade170785?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1578898887155-004ade170785?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Colorful streets Puerto Rico" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1578898887155-004ade170785?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E487D3FD-B1A6-43EE-A833-F83580819BA1}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ec4e3aaa-c1c5-43b0-ae1c-2a027f3b94a9"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{C1F2AD56-3AD7-4E18-A1C7-C70B9768BD72}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "Puerto Rico blends easy U.S. entry logistics with distinctly Caribbean rhythm: historic forts, rainforest hikes, and surf breaks within a short drive."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260427T192721Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Puerto-Rico-Island-Enchantment"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: "<p>Puerto Rico punches above its size. You can breakfast on mallorca bread in <strong>Old San Juan</strong>, hike misty rainforest trails by midday, and still make a late-afternoon swim on the north coast—then end with a boat tour in a glowing bay.</p><h2>Old San Juan without the rush</h2><p>Give the forts at least half a day. Wear sun protection and carry water; Atlantic breezes can hide how strong the UV is. Afterward, descend into the lower city for mofongo, craft cocktails, and live plena spilling from doorways.</p><h2>El Yunque and the east</h2><p><strong>El Yunque National Forest</strong> is a compact masterpiece of waterfalls and viewpoints. Pair it with <strong>Luquillo</strong> for approachable local food kiosks, or push east toward <strong>Fajardo</strong> if you are staging a bio-bay kayak trip—new moon nights are brightest.</p><h2>West coast and islands</h2><p><strong>Rincón</strong> draws surfers; <strong>Cabo Rojo</strong> offers dramatic cliffs. For overnight escapes, <strong>Vieques</strong> and <strong>Culebra</strong> add quieter beaches—book ferries or flights early in high season.</p><p>Puerto Rico rewards a loose itinerary: leave room for a second café stop, an unplanned beach, and the kind of night that starts with one song and ends with many.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: From Old San Juan strolls to rainforest trails and glowing bays—how to structure a Puerto Rico trip.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Explore Puerto Rico: Old San Juan, El Yunque, bioluminescent bays, west-coast surf towns, and island-hopping to Vieques or Culebra."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 8 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c30fd66-c033-444c-b506-b29ce533bef4"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Puerto Rico: Island of Enchantment, Minute by Minute"
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 31
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260427T192744Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 36
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Puerto Rico Travel Guide | Skywings
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Puerto Rico, Old San Juan, El Yunque, Caribbean, bioluminescent bay, Skywings

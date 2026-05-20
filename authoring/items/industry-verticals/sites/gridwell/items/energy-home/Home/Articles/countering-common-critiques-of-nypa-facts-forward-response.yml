@@ -1,0 +1,116 @@
+﻿---
+ID: "232b49f9-e955-4bf2-8b6f-c69fb04acc46"
+Parent: "08737f6e-6ae0-4044-a550-05b98b9ccf69"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Articles/countering-common-critiques-of-nypa-facts-forward-response"
+SharedFields:
+- ID: "1a8bfd25-dc41-43ec-a561-d0635fb1958a"
+  Hint: Tags
+  Value: NYPA|Public Power|Renewables|Transmission|Energy Storage|BPRA|PSC|Clean Path|Governance
+- ID: "508c54c0-cd02-4266-8b68-d71f88de1aa9"
+  Hint: ChangeFrequency
+  Value: 
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260319T000000Z
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: NYPA|Renewables|Transmission|Energy Policy|Governance|Energy Storage
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{58FC2AC0-6A57-4DD4-B6ED-8BBD80384431}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1116df75-37f0-4b52-bc6b-ba58b4a7d4bb"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: Energy Policy
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "0c254c3d-2e46-4723-8cd9-460f4f86de7c"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Countering Common Critiques of NYPA: A Facts-Forward Response"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "A structured, evidence-based response to common arguments that NYPA is moving too slowly on renewables, pursuing costly transmission, ignoring BPRA, and undermining trust through controversial spending. Highlights NYPA’s expanded renewables pipeline (nearly 5.5 GW), the PSC’s denial of priority status for Clean Path, and the separation of governance issues from NYPA’s core public-power mission."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260319T183851Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Countering Common Critiques of NYPA
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><h2>Executive Summary</h2><p>Public debate around NYPA has intensified as New York accelerates grid modernization and clean-energy deployment. Critics frequently argue that NYPA is moving too slowly on renewables, pursuing costly transmission, and undermining public trust through controversial spending (notably executive air travel). A credible counter-argument recognizes the urgency of climate goals while grounding decisions in reliability, affordability, regulatory constraints, and the reality that many projects depend on third parties. NYPA’s updated renewables plan and ongoing push for clean, reliable power show measurable progress—even amid setbacks like the state’s denial of “priority” status for the Clean Path transmission proposal.</p><h2>Key Findings</h2><ul><li><strong>NYPA materially increased its renewables pipeline versus earlier drafts, ultimately approving an updated plan totaling nearly 5.5 GW across dozens of projects and distributed storage installations.</strong> (<a href="https://www.publicpower.org/periodical/article/nypa-board-trustees-approves-updated-renewables-strategic-plan">publicpower.org</a>)</li><li><strong>The Public Service Commission (PSC) denied NYPA’s petition to designate Clean Path as a “Priority Transmission Project,” citing deficiencies in NYPA’s showing—meaning the delay/denial is not simply NYPA “choosing inaction.”</strong> (<a href="https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B10A1A998-0000-C42B-B3B8-0AB5C401EF82%7D">documents.dps.ny.gov</a>)</li><li><strong>Private-jet controversy is politically damaging and merits reform, but it does not negate NYPA’s core role as a fiscally independent public power provider with a statutory mission tied to dependable, affordable electricity.</strong> (<a href="https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-24f15.pdf">osc.ny.gov</a>)</li></ul><h2>Detailed Analysis</h2><h3>1) “NYPA isn’t building enough renewables—activists say 15 GW by 2030, but NYPA’s plan is far lower.”</h3><p><strong>Counterpoint:</strong> Targets must be judged against what is financeable, buildable, and connectable to the grid on real timelines—not only what is aspirational.</p><ul><li><strong>NYPA increased ambition relative to earlier drafts.</strong> Reporting on NYPA’s plan evolution shows the authority expanded planned capacity and project scope over time, culminating in an updated strategic plan approved by the NYPA board with <strong>nearly 5.5 GW</strong> across <strong>45 projects plus 146 distributed storage projects</strong>. (<a href="https://www.publicpower.org/periodical/article/nypa-board-trustees-approves-updated-renewables-strategic-plan">publicpower.org</a>)</li><li><strong>External constraints matter.</strong> Advocacy coverage itself notes renewable development is stymied by “technological, logistical, financial and legislative delays,” which affects schedules and outcomes for every developer—public or private. (<a href="https://www.cityandstateny.com/policy/2024/10/progressives-warn-states-plan-wont-produce-enough-renewable-energy/400282/">cityandstateny.com</a>)</li><li><strong>A public authority still must execute responsibly.</strong> NYPA can’t credibly promise volumes that require land, permits, interconnection capacity, supply chains, and workforce ramp-up faster than the market can deliver. A realistic plan that is actually executed can outperform a larger number that fails in delivery.</li></ul><p><strong>What a strong counter-article should say:</strong> NYPA’s plan should keep growing, but “bigger number” is not the same as “bankable build plan.” Progress is measured in permitted projects, contracted equipment, interconnection milestones, construction starts, and energization—not slogans.</p><h3>2) “NYPA ‘ignored’ the Build Public Renewables Act (BPRA) and is dragging its feet.”</h3><p><strong>Counterpoint:</strong> A public buildout requires transparent planning, sequencing, and governance—especially when the authority is expected to protect affordability and reliability statewide.</p><ul><li>The critique (e.g., that the draft plan was only <strong>3.5 GW by 2030</strong> and therefore insufficient) is based on a snapshot in time—NYPA’s planning documents and external reporting show the plan was updated and expanded later. (<a href="https://www.cityandstateny.com/policy/2024/10/progressives-warn-states-plan-wont-produce-enough-renewable-energy/400282/">cityandstateny.com</a>)</li><li>The updated plan’s scope—dozens of projects plus large-scale storage—signals institutional mobilization rather than refusal. (<a href="https://www.publicpower.org/periodical/article/nypa-board-trustees-approves-updated-renewables-strategic-plan">publicpower.org</a>)</li></ul><p><strong>What a strong counter-article should say:</strong> BPRA implementation is not a single switch flip; it’s an operating model change (development, ownership, operations, procurement, labor, interconnection, community engagement). The more NYPA is expected to “do it right,” the more structured the ramp-up must be.</p><h3>3) “Clean Path proves NYPA is pushing expensive, flawed projects—ratepayers will suffer.”</h3><p><strong>Counterpoint:</strong> Transmission is often the highest-leverage climate and reliability investment; and in Clean Path’s case, NYPA’s inability to obtain expedited treatment reflects regulatory findings, not necessarily lack of merit in the underlying need for downstate supply.</p><ul><li>NYPA petitioned for “Priority Transmission Project” designation; <strong>the PSC denied the petition (Issued and Effective August 14, 2025)</strong>. That denial was grounded in the commission’s evaluation of NYPA’s showing under the relevant statute and proceeding—not simply a political talking point. (<a href="https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B10A1A998-0000-C42B-B3B8-0AB5C401EF82%7D">documents.dps.ny.gov</a>)</li><li>Independent reporting frames Clean Path as a response to congestion and decarbonization needs, even while noting significant cost and stakeholder disagreement. (<a href="https://www.rtoinsider.com/103583-clean-path-transmission-plan-draws-support-criticism/">rtoinsider.com</a>)</li></ul><p><strong>What a strong counter-article should say:</strong> You can oppose a specific proposal and still agree with the core problem it tried to solve: New York City and downstate load zones need more clean capacity delivered reliably. If Clean Path wasn’t the right tool (per regulators), that points to the need for a better tool—not abandonment of transmission investment.</p><h3>4) “NYPA’s private plane spending is hypocritical for a clean-energy leader.”</h3><p><strong>Counterpoint:</strong> The optics are bad, and reforms are warranted—but governance controversies are separable from NYPA’s public-purpose energy mission and portfolio delivery.</p><ul><li>The controversy is real and bipartisan; major political figures publicly criticized the plane purchase and usage. (<a href="https://www.usatoday.com/story/news/politics/2025/11/18/ny-democrats-republicans-blast-new-york-power-authority-private-plane/87332380007/">usatoday.com</a>)</li><li>At the same time, NYPA is a <strong>fiscally independent public corporation</strong> operating primarily on revenue from electricity sales with a statutory mission tied to dependable supply. (<a href="https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-24f15.pdf">osc.ny.gov</a>)</li></ul><p><strong>What a strong counter-article should say (without defensiveness):</strong> NYPA should tighten travel policies, benchmarking, and disclosures to restore trust—but it is counterproductive to treat a governance scandal as evidence that public power cannot build renewables or run a reliable grid.</p><h3>5) “NYPA’s plan keeps changing—proof it’s not serious.”</h3><p><strong>Counterpoint:</strong> In infrastructure, plan updates can indicate responsiveness to market conditions (joint ventures changing, procurement realities, interconnection timelines) rather than incompetence.</p><ul><li>Coverage of the updated renewables plan notes changes from draft versions and attributes some reductions to private developers withdrawing from joint ventures—an inherently dynamic factor. (<a href="https://www.canarymedia.com/articles/clean-energy/ny-public-utility-approves-renewables-plan">canarymedia.com</a>)</li><li>NYPA’s approved plan still represents a substantial portfolio across multiple technologies (solar, wind, storage, including a large compressed-air storage project reported in industry coverage). (<a href="https://www.utilitydive.com/news/nypa-renewable-energy-plan/807542/">utilitydive.com</a>)</li></ul><p><strong>What a strong counter-article should say:</strong> The public should demand clarity on <em>why</em> plans change (and what is replacing what), but treating all adjustments as failure misunderstands how capital-intensive energy development works.</p><h2>Sources</h2><ul><li><a href="https://www.cityandstateny.com/policy/2024/10/progressives-warn-states-plan-wont-produce-enough-renewable-energy/400282/">https://www.cityandstateny.com/policy/2024/10/progressives-warn-states-plan-wont-produce-enough-renewable-energy/400282/</a></li><li><a href="https://www.utilitydive.com/news/nypa-renewable-energy-plan/807542/">https://www.utilitydive.com/news/nypa-renewable-energy-plan/807542/</a></li><li><a href="https://www.publicpower.org/periodical/article/nypa-board-trustees-approves-updated-renewables-strategic-plan">https://www.publicpower.org/periodical/article/nypa-board-trustees-approves-updated-renewables-strategic-plan</a></li><li><a href="https://www.tdworld.com/renewables/news/55337360/nypa-updates-renewable-strategy-plans-nearly-55-gw-of-clean-energy-and-storage-projects">https://www.tdworld.com/renewables/news/55337360/nypa-updates-renewable-strategy-plans-nearly-55-gw-of-clean-energy-and-storage-projects</a></li><li><a href="https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B10A1A998-0000-C42B-B3B8-0AB5C401EF82%7D">https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B10A1A998-0000-C42B-B3B8-0AB5C401EF82%7D</a></li><li><a href="https://www.rtoinsider.com/112570-nypsc-denies-nypa-clean-path-transmission-priority-status/">https://www.rtoinsider.com/112570-nypsc-denies-nypa-clean-path-transmission-priority-status/</a></li><li><a href="https://www.canarymedia.com/articles/clean-energy/ny-public-utility-approves-renewables-plan">https://www.canarymedia.com/articles/clean-energy/ny-public-utility-approves-renewables-plan</a></li><li><a href="https://www.usatoday.com/story/news/politics/2025/11/18/ny-democrats-republicans-blast-new-york-power-authority-private-plane/87332380007/">https://www.usatoday.com/story/news/politics/2025/11/18/ny-democrats-republicans-blast-new-york-power-authority-private-plane/87332380007/</a></li><li><a href="https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-24f15.pdf">https://www.osc.ny.gov/files/state-agencies/audits/pdf/sga-2026-24f15.pdf</a></li></ul></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Public debate around NYPA has intensified amid grid modernization and clean-energy goals. This article counters frequent critiques—renewables ambition, BPRA delays, Clean Path costs, and private-jet controversy—by grounding the discussion in deliverability, reliability, affordability, and regulatory realities."
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Facts-forward rebuttal to common critiques of the New York Power Authority (NYPA), covering renewables targets, BPRA implementation, Clean Path transmission, and governance concerns such as private-jet spending—framed through reliability, affordability, and regulatory constraints."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 8 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "131befda-b3a9-4b5b-bbac-8be874858b5d"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Countering Common Critiques of the New York Power Authority (NYPA): A Facts-Forward Response"
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260319T184244Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 0
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: "Countering Common Critiques of NYPA: A Facts-Forward Response"
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: |
+        New York Power Authority
+        NYPA
+        public power
+        renewable energy
+        grid modernization
+        clean energy
+        transmission
+        Clean Path
+        Public Service Commission
+        PSC
+        Build Public Renewables Act
+        BPRA
+        energy storage
+        governance
+        public trust

@@ -1,0 +1,89 @@
+﻿---
+ID: "4743846f-9fda-41db-8b0b-ea8dd78240f4"
+Parent: "4205ba63-338e-4a96-9163-036c9bcc6573"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Blog/Barbados-Platinum-West-Indies"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{277F3098-11F5-4588-9E78-67584008C228}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260427T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1559827260-dc66d52aad19?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Barbados tropical beach" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1559827260-dc66d52aad19?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1559827260-dc66d52aad19?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Barbados tropical beach" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1559827260-dc66d52aad19?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CEE86631-E551-4870-AFF5-98EBF3022224}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fc8b4ef6-d3bf-4112-84f2-61260c9df12b"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{C1F2AD56-3AD7-4E18-A1C7-C70B9768BD72}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Barbados mixes British Caribbean heritage with Bajan warmth, surf breaks on the east, and calm swimming on the west.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260427T192719Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Barbados-Platinum-West-Indies"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: "<p>Barbados is the island that feels both polished and personal. You can trace British Caribbean history in Bridgetown, then share a bench with locals at a Friday fish fry—rum punch optional but culturally encouraged.</p><h2>West coast ease</h2><p>The <strong>Platinum Coast</strong> delivers postcard swimming: calm water, long sunsets, and resorts that know how to stage a beach dinner. It is ideal for families and anyone who wants snorkeling without adrenaline.</p><h2>East coast energy</h2><p>Atlantic-facing beaches bring surf and drama—better for strong swimmers and photographers. A coast-to-coast drive is short but instructive: you feel the island’s split personality in under an hour.</p><h2>Flavor as compass</h2><p>Follow flying fish sandwiches, cou-cou, and roti into neighborhood kitchens. <strong>Oistins</strong> on weekends is part dinner theater, part reunion—arrive hungry and patient for lines.</p><ul><li><strong>Rent a car</strong> if you want rhythm beyond your hotel.</li><li><strong>Respect dress codes</strong> at churches and historic sites.</li><li><strong>Pair rum tours with water</strong>—Barbados takes both seriously.</li></ul><p>Barbados proves you do not have to choose between comfort and authenticity—you simply pace your week to include both.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "West Indies polish with street-food soul—how to see Barbados beyond the resort gate."
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Visit Barbados: Bridgetown, west-coast beaches, Oistins Fish Fry, surf on the east, rum distilleries, and Crop Over culture."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 8 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8d118ecb-9b3c-401f-83a9-9f00383cd164"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Barbados: Platinum Coast, Rum, and Island Time"
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 24
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260427T192821Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 35
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Barbados Travel Guide | Skywings
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Barbados, Bridgetown, Oistins, Platinum Coast, Caribbean, Skywings

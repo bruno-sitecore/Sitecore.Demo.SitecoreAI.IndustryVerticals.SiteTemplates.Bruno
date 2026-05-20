@@ -1,0 +1,110 @@
+﻿---
+ID: "1c953df8-4040-4ebe-b119-03559c513ee5"
+Parent: "08737f6e-6ae0-4044-a550-05b98b9ccf69"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/gridwell/Home/Articles/estimated-number-of-consumer-evs-on-the-road-in-new-york-state-ny"
+SharedFields:
+- ID: "1a8bfd25-dc41-43ec-a561-d0635fb1958a"
+  Hint: Tags
+  Value: "electric-vehicles|new-york|ev-registrations|nyserda|dmv|bevs|phevs"
+- ID: "508c54c0-cd02-4266-8b68-d71f88de1aa9"
+  Hint: ChangeFrequency
+  Value: Monthly
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260320T000000Z
+- ID: "76fb6ffd-4487-4028-a1cf-705fbe360cba"
+  Hint: Priority
+  Value: 0.5
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: Electric Vehicles|New York|Data & Statistics|Transportation|Sustainability
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C931B616-E2E2-4964-BBAD-7AB73652C33D}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c39b441e-8108-4ae4-9fe3-b29b8d93dfda"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: Transportation / Electric Vehicles
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "7d885878-ff5c-4b40-b7e0-69a45bbcd6fb"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Estimated Number of Consumer EVs on the Road in New York State (NY)
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: "New York’s best publicly available statewide proxy for consumer EVs is registered light-duty plug-in EVs (BEV+PHEV) from NYSERDA/DMV-based reporting. Recent reporting indicates about 271,171 plug-in EVs statewide at year-end 2024; a BEV-only alternative estimate is about 131,250 as of Dec 31, 2023 (AFDC)."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260320T141814Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: NY Consumer EVs on the Road (Estimate)
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><h2>Executive Summary</h2><p>The best publicly available statewide count of EVs “driven by consumers” in New York is typically measured as <strong>registered light-duty electric vehicles</strong>. Using New York’s EV market tracking (NYSERDA/DMV-based) definition, this includes <strong>battery-electric vehicles (BEVs) + plug-in hybrid electric vehicles (PHEVs)</strong>. Recent NYS reporting indicates <strong>~271,171 total plug-in EVs statewide at year-end 2024</strong> (BEV+PHEV). (<a href="https://driveelectriclongisland.org/wp-content/uploads/2025/03/State-of-Electric-Vehicles-on-Long-Island-report-February-2025.pdf">driveelectriclongisland.org</a>)</p><h2>Key Findings</h2><ul><li><strong>~271,171 plug-in EVs (BEV+PHEV) were registered in New York State as of year-end 2024</strong> (a proxy for consumer EVs on the road statewide). (<a href="https://driveelectriclongisland.org/wp-content/uploads/2025/03/State-of-Electric-Vehicles-on-Long-Island-report-February-2025.pdf">driveelectriclongisland.org</a>)</li><li>NYSERDA’s EValuateNY “EVs on the Road” metric <strong>counts both BEVs and PHEVs</strong> using monthly NYS DMV registration snapshots. (<a href="https://atlaspolicy.com/evaluateny/">atlaspolicy.com</a>)</li><li>If you mean <strong>all-electric only (BEV, excluding PHEV)</strong>, the U.S. DOE AFDC state chart shows <strong>~131,250 all-electric light-duty EV registrations in New York as of Dec 31, 2023</strong> (rounded/estimated, different data source). (<a href="https://afdc.energy.gov/data/widgets/10962">afdc.energy.gov</a>)</li></ul><h2>Detailed Analysis</h2><h3>1) What “consumer EVs driven across NY” usually means</h3><p>Because there is no single public dataset that cleanly separates “consumer-owned” from “fleet/government” for the entire state, the standard proxy used by New York’s official EV dashboarding is <strong>registered vehicles on the road</strong>, sourced from <strong>NYS DMV registration snapshots</strong> and presented via <strong>NYSERDA’s EValuateNY</strong>. (<a href="https://www.nyserda.ny.gov/All-Programs/Drive-Clean-Rebate-For-Electric-Cars-Program/Rebate-Data/Map-of-EV-Registrations">nyserda.ny.gov</a>)</p><p>EValuateNY’s definition matters: it states that <strong>“EVs on the Road” counts both BEVs and PHEVs</strong> (i.e., plug-in vehicles). (<a href="https://atlaspolicy.com/evaluateny/">atlaspolicy.com</a>)</p><h3>3) Alternative interpretation: “EVs” = all-electric only (BEV)</h3><p>Some sources use “EV” to mean <strong>all-electric only</strong> (excluding plug-in hybrids). The U.S. DOE Alternative Fuels Data Center (AFDC) provides an all-electric-by-state chart and indicates for New York:</p><ul><li><strong>~131,250 all-electric (BEV) registrations as of Dec 31, 2023</strong> (rounded/estimated; derived from Experian via a national lab). (<a href="https://afdc.energy.gov/data/widgets/10962">afdc.energy.gov</a>)</li></ul><p>This number is <strong>not directly comparable</strong> to the NYSERDA/DMV plug-in total because:</p><ul><li>It is <strong>all-electric only</strong> (unless you separately add PHEVs)</li><li>It is <strong>as-of end of 2023</strong>, and uses a <strong>different underlying source/method</strong> (<a href="https://afdc.energy.gov/data/widgets/10962">afdc.energy.gov</a>)</li></ul><h2>Sources</h2><ul><li><a href="https://driveelectriclongisland.org/wp-content/uploads/2025/03/State-of-Electric-Vehicles-on-Long-Island-report-February-2025.pdf">https://driveelectriclongisland.org/wp-content/uploads/2025/03/State-of-Electric-Vehicles-on-Long-Island-report-February-2025.pdf</a></li><li><a href="https://atlaspolicy.com/evaluateny/">https://atlaspolicy.com/evaluateny/</a></li><li><a href="https://www.nyserda.ny.gov/All-Programs/Drive-Clean-Rebate-For-Electric-Cars-Program/Rebate-Data/Map-of-EV-Registrations">https://www.nyserda.ny.gov/All-Programs/Drive-Clean-Rebate-For-Electric-Cars-Program/Rebate-Data/Map-of-EV-Registrations</a></li><li><a href="https://afdc.energy.gov/data/widgets/10962">https://afdc.energy.gov/data/widgets/10962</a></li><li><a href="https://afdc.energy.gov/vehicle-registration">https://afdc.energy.gov/vehicle-registration</a></li></ul></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: "Using NYSERDA/DMV-based EV market tracking, New York State had an estimated ~271,171 registered plug-in EVs (BEV+PHEV) at year-end 2024 as a proxy for consumer EVs on the road. An alternative BEV-only estimate is ~131,250 as of Dec 31, 2023 (AFDC)."
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Estimated count of consumer EVs on the road in New York State using registered light-duty plug-in EVs (BEV+PHEV) from NYSERDA/DMV-based reporting, plus an all-electric (BEV-only) alternative estimate."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 4 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ccc0fe4-2fe4-444b-89db-115d3452234e"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: Estimated Number of Consumer EVs on the Road in New York State (NY)
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 0
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260320T141858Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 0
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Estimated Number of Consumer EVs on the Road in New York State (NY)
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: |
+        New York EV registrations
+        NYSERDA EValuateNY
+        EVs on the road
+        plug-in EV
+        BEV
+        PHEV
+        DMV registration snapshots
+        AFDC all-electric registrations
+        New York State electric vehicles

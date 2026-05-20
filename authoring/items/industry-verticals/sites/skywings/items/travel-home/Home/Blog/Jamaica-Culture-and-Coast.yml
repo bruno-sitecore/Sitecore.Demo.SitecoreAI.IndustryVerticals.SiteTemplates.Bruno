@@ -1,0 +1,89 @@
+﻿---
+ID: "70eb2757-21e2-4616-9d7b-00a641ff5b81"
+Parent: "4205ba63-338e-4a96-9163-036c9bcc6573"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/industry-verticals/skywings/Home/Blog/Jamaica-Culture-and-Coast"
+SharedFields:
+- ID: "03ca09cf-9d31-4bbb-a71f-29dec7536586"
+  Hint: Author
+  Value: "{277F3098-11F5-4588-9E78-67584008C228}"
+- ID: "5f90c361-338c-4896-b022-11dafa5c2241"
+  Hint: PublishedDate
+  Value: 20260427T000000Z
+- ID: "61dfb6ba-1cd3-42ec-97d7-75ca2522920c"
+  Hint: ogImage
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Tropical Caribbean beach Jamaica" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=2000&amp;h=800&amp;fit=crop&amp;q=80" width="2000" height="800" alt="Tropical Caribbean beach Jamaica" dam-content-type="Image" thumbnailsrc="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&amp;h=160&amp;fit=crop&amp;q=80" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FB65A189-2B77-4A24-B514-4FE52379795C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2164291f-92c1-4c79-8a33-49452680f077"
+- ID: "fe61849e-05c9-4da7-ba34-5780f95d0866"
+  Hint: Category
+  Value: "{C1F2AD56-3AD7-4E18-A1C7-C70B9768BD72}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17b75967-9b67-4eb9-bb35-bbe0228ca368"
+      Hint: pageSummary
+      Value: Jamaica remains one of the Caribbean’s most recognized destinations, pairing famous coastlines with interior adventures and an unmistakable creative spirit.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260427T192719Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Jamaica-Culture-and-Coast"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: "<p>Jamaica’s reputation was built on music, mountains, and sea—and modern visitors still feel that trinity the moment they arrive. The island is large enough for distinct regions, each with its own pace.</p><h2>North coast classics</h2><p><strong>Montego Bay</strong> is the efficient gateway; <strong>Ocho Rios</strong> clusters famous waterfalls and adventure parks; <strong>Negril</strong> stretches sunsets along Seven Mile Beach. If you only chase headlines, you still leave happy—but Jamaica deepens when you go inland.</p><h2>Blue Mountain mornings</h2><p>A pre-dawn drive into coffee country rewards you with cool air, winding roads, and cups that taste like altitude and patience. Pair a plantation tour with a hike segment if your fitness allows—guides make the difference on slick trails.</p><h2>Culture as itinerary</h2><p>Schedule a live session in <strong>Kingston</strong> if time permits, or explore smaller galleries and cookshops along the coast. Jerk is religion here: respect the smoke, the lines, and the house rules about sauce.</p><ul><li><strong>Respect local norms</strong> on beaches and at heritage sites.</li><li><strong>Book drivers</strong> for multi-stop days; winding roads reward professionals.</li><li><strong>Pack reef-safe sunscreen</strong>—your snorkel spots will thank you.</li></ul><p>Whether you came for romance, adventure, or a reset, Jamaica tends to add one more reason to return before you have left.</p>"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Beyond the resorts—coffee country, waterfalls, and the culture that made Jamaica a global icon.
+    - ID: "7a52d039-c368-46c1-b93d-5cbd5b802f73"
+      Hint: metadataDescription
+      Value: "Discover Jamaica: Montego Bay, Ocho Rios, Negril, Blue Mountains coffee, Dunn's River, reggae heritage, and responsible travel tips."
+    - ID: "844baf54-2f0e-42a5-8cab-5f596ea60c3e"
+      Hint: ReadTime
+      Value: 8 min
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "99f76f87-d175-4592-8bb4-6fce0512bea4"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Jamaica: Blue Mountains, Beaches, and Everyday Magic"
+    - ID: "b7bb63c4-ac9e-4536-9d96-c3c5e9d14ced"
+      Hint: Shares
+      Value: 45
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\brandon.bruno@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260427T192750Z
+    - ID: "de1b043b-cddd-48a7-b9c4-98251e188b30"
+      Hint: Likes
+      Value: 52
+    - ID: "e4df8bb9-c0d9-475d-92b4-dcb526bd6b38"
+      Hint: metadataTitle
+      Value: Jamaica Travel Guide | Skywings
+    - ID: "f04feaa2-f9a4-4030-907d-18fc3b18b0f4"
+      Hint: metadataKeywords
+      Value: Jamaica, Montego Bay, Negril, Blue Mountains, Dunn's River, Caribbean, Skywings
